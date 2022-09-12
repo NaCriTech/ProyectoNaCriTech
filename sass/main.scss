@@ -1,0 +1,39 @@
+$primary:hsla(138, 71%, 11%, 0.92);
+$dark: #040885;
+$border-color: hsl(136, 72%, 43%);  
+
+//Bootstrap
+@import "../bootstrap/scss/bootstrap";
+
+//general
+body {
+font-family: 'Poppins',sans-serif;
+font-weight: 300;
+}
+
+.website-title{
+    font-family: 'Shadows Into Light',sans-serif; 
+    font-size: 50px;
+}
+
+a{
+  color: $secondary;
+  &:hover{
+    text-decoration: none ;
+  }
+}
+
+.nav-link{
+    &:hover{
+        color: $primary;
+    }
+    &:active{
+
+    }
+}
+
+p{
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
