@@ -141,8 +141,6 @@
                         <ul class="nav nav-pills nav-fill">
                             <li class="nav-item">
                                 <a href="#contactos" class="nav-link active" data-toggle="tab">Contactos</a>
-                                <a href="/contacto.html">Contacto</a>
-
                             </li>
                             <li class="nav-item">
                                 <a href="#direccion" class="nav-link " data-toggle="tab">Direccion</a>
@@ -159,8 +157,49 @@
                     <div class="products-masonry">
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="contactos">
+                                <br>
                                 <h3>Contactos</h3>
                                 <p>099 575 0761</p>
+                                <div>
+                                    <form>
+                                        <div class="form-group">
+                                          <label for="nombreCliente">Nombre:</label>
+                                          <input type="text" class="form-control" id="nombreCliente" placeholder="Nombre del Cliente">
+                                        </div>
+                                
+                                        <div class="form-group">
+                                            <label for="apellidoCliente">Apellido:</label>
+                                            <input type="text" class="form-control" id="apellidoCliente" placeholder="Apellido del Cliente">
+                                          </div>
+                                
+                                          <div class="form-group">
+                                            <label for="emailCliente">Email:</label>
+                                            <input type="email" class="form-control" id="emailCliente" placeholder="name@example.com">
+                                          </div>
+                                      
+                                          <div class="form-group">
+                                            <label for="numeroCelular">Nùmro de Celular:</label>
+                                            <input type="number" class="form-control" id="numeroCelular" placeholder="Nùmero de celular">
+                                          </div>
+                                  
+                                        <div class="form-group">
+                                            <label for="tipoSoporte">Tipo de Soporte:</label>
+                                            <select class="form-control" id="tipoSoporte">
+                                              <option>Mantenimiento Fìsico y Lògico</option>
+                                              <option>Cambio de Piezas</option>
+                                              <option>Formateo </option>
+                                              <option>Limpieza</option>
+                                              <option>Respaldo de Informaciòn</option>
+                                            </select>
+                                          </div>
+                                
+                                          <div class="form-group">
+                                            <label for="clienteComentario">Comentarios:</label>
+                                            <textarea class="form-control" id="clienteComentario"placeholder=" Escriba su comenterio" rows="5"></textarea>
+                                          </div>
+                                
+                                      </form>
+                                </div>
                             </div>
                             <div class="tab-pane fade " id="direccion">
                                 <h3>Direccion</h3>
