@@ -44,5 +44,5 @@ app.post('/api', cors() ,(req, res) => {
 
 app.listen('3000', (error) => {
     if (error) console.log(error)
-    console.log('El sevidor esta corriendo por el puero 3000')
+    console.log('El servidor esta corriendo por el puerto 3000')
 })
